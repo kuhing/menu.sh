@@ -301,6 +301,7 @@ case $opt in
 14) clear ; wget -q https://raw.githubusercontent.com/jambanbkn/menu-update.sh/menu-update.sh/menu-update.sh;chmod +x menu-update.sh;./menu-update.sh ;;
 15) clear ; menu-bckp ;;
 16) clear ; menu-theme ;;
+17) clear ; add-gb ;;
 0) clear ; menu ;;
 x) exit ;;
 *) echo "Anda salah tekan " ; sleep 1 ; menu ;;
