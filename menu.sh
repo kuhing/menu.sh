@@ -302,9 +302,7 @@ case $opt in
 15) clear ; menu-bckp ;;
 16) clear ; menu-theme ;;
 17) clear ; add-gb ;;
-18) clear ; vmess ;;
-19) clear ; vless ;;
-20) clear ; trojan ;;
+18) clear ; gotop ;;
 0) clear ; menu ;;
 x) exit ;;
 *) echo "Anda salah tekan " ; sleep 1 ; menu ;;
