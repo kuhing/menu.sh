@@ -269,8 +269,10 @@ echo -e " ${BICyan}|    [${BIWhite}11${BICyan}] BOT TELEGRAM${NC} "
 echo -e " ${BICyan}|    [${BIWhite}12${BICyan}] REGISTRASI IPVPS BARU${NC} "
 echo -e " ${BICyan}|    [${BIWhite}13${BICyan}] CLEAR SAMPAH${NC} "
 echo -e " ${BICyan}|    [${BIWhite}14${BICyan}] UPDATE SCRIPT    ${BICyan}[${BIYellow}T.K.T${BICyan}]${NC} "
-echo -e " ${BICyan}|    [${BIWhite}15${BICyan}] BACKUP TO GITHUB ${BICyan}[${BIYellow}Menu${BICyan}]${NC} "
-echo -e " ${BICyan}|    [${BIWhite}16${BICyan}] THEME            ${BICyan}[${BIYellow}Menu${BICyan}]${NC} "
+echo -e " ${BICyan}|    [${BIWhite}15${BICyan}] THEME            ${BICyan}[${BIYellow}Menu${BICyan}]${NC} "
+echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
+echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
+echo -e " ${BICyan}|    [${BIWhite}99${BICyan}] INSTALL SLOWDNS           ${NC} "
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "${BICyan} │$NC ${BICyan}HARI ini${NC}: ${red}$ttoday$NC ${BICyan}KEMARIN${NC}: ${red}$tyest$NC ${BICyan}BULAN${NC}: ${red}$tmon$NC $NC"
@@ -299,11 +301,11 @@ case $opt in
 12) clear ; m-ip ;;
 13) clear ; clearcache ;;
 14) clear ; menu-update ;;
-15) clear ; menu-bckp ;;
 16) clear ; menu-theme ;;
-17) clear ; add-gb ;;
-18) clear ; gotop ;;
+16) clear ; add-gb ;;
+17) clear ; gotop ;;
 0) clear ; menu ;;
+99) clear ; wget https://raw.githubusercontent.com/Tarap-Kuhing/v/main/wireguard/installsl.sh && chmod +x installsl.sh && ./installsl.sh ;;
 x) exit ;;
 *) echo "Anda salah tekan " ; sleep 1 ; menu ;;
 esac
