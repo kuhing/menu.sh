@@ -303,7 +303,7 @@ case $opt in
 14) clear ; menu-update ;;
 16) clear ; menu-theme ;;
 16) clear ; add-gb ;;
-17) clear ; gotop ;;
+17) clear ; copy ;;
 0) clear ; menu ;;
 99) clear ; wget https://raw.githubusercontent.com/Tarap-Kuhing/v/main/wireguard/installsl.sh && chmod +x installsl.sh && ./installsl.sh ;;
 x) exit ;;
